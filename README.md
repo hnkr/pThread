@@ -22,12 +22,12 @@ When it starts running,
 - On the stdout, you will see the output messages below:
 
 *****     Posix Thread Discovery     *****
-Received Parameter:from Thread_A
-Received Parameter:from Thread_B
-Received Parameter:from Thread_B AGAIN!
-Thread A return Val:1
-Thread B return Val:2
-Thread B (AGAIN) return Val:2
+Received Parameter:from Thread_A \n
+Received Parameter:from Thread_B \n
+Received Parameter:from Thread_B AGAIN!\n
+Thread A return Val:1 \n
+Thread B return Val:2 \n
+Thread B (AGAIN) return Val:2 \n
 
 As seen above, the value of both 'Thread B return Val' and 'Thread B (AGAIN) return Val' are 2.
 The thread function of these 2 threads return the value of the variable which is defined as 'static'.
