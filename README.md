@@ -15,8 +15,8 @@
 
 ## Working Principle
 When it starts running, 
-- 3 threads are be created(started).
-- Thread A uses its own function
+- 3 threads will be created(started).
+- Thread A uses its own / separate function
 - Thread B and Thread B AGAIN use the same function.
 - pthread_join is used to wait for the thread to finish its job before finishing the program.
 - On the stdout, you will see the output messages below: <br />
