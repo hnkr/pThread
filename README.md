@@ -7,8 +7,8 @@
 - Ubuntu OS
 - gcc
 
-## Compile & Run
-- Compile:
+## Build & Run
+- Build:
     - gcc pThread.c -Wall -o pThread -lpthread
 - Run:
     - ./pThread
